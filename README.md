@@ -5,8 +5,6 @@ Provides a manifold for gulp object streams.
 Splits a stream into ducts by applying filters, allowing ducts to specify their own piping into the Return. The Return from ducts are then
 merged with the Bypass for further piping.
 
-Filtered 
-
 The Bypass is comprised of anything that wasn't filtered.
 
 ```plaintext
